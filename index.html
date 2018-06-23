@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>爱分享</title>
+  <style>
+#wrap{
+position: relative;
+height: 250px;
+width: 400px;
+margin: 0 auto;
+}
+#wrap div{
+position: absolute;
+width: 16px;
+height: 16px;
+background-color: white;
+cursor: pointer;
+}
+
+.blackDiv{
+border: 1px solid #000;
+}
+.redDiv{
+	border: 1px solid red;
+}
+
+</style> 
+  <link rel="stylesheet" href="./css/bootstrap.min.css" /> 
+
+  <script src="./js/jquery.min.js"></script> 
+  <script src="./js/bootstrap.min.js"></script> 
+  
+  <script src="./js/index.js"></script> 
+  <script src="./js/nebPay.js"></script> 
+
+ </head> 
+ <body> 
+  <div class="container"> 
+
+     <div class="jumbotron"> 
+      <h1> 爱分享 </h1> 
+      <p> 文字是一种很美秒的东西。它能让你体会到温馨，感觉到生活美好；它能让你感受到乡愁，思念起故乡的亲人。它能让你思考生命的意义，它也能给养你的心灵。
+	  <br><br>遇到美好的文字，就随手分享吧。这些触动你心灵深处的文字，也是一种财富。<br>抑或是一首小诗，抑或是一段心灵鸡汤。。。</p> 
+     </div> 
+     <dl> 
+
+     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation"> 
+      <div class="navbar-header"> 
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> 
+       <a class="navbar-brand" href="https://nebulas.io/" target="_blank">NEBULAS</a> 
+      </div> 
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+       <ul class="nav navbar-nav"> 
+        <li class="active"> <a href="#">主页</a> </li> 
+		<li> <a href="#instruction">使用教程</a> </li> 
+        <li> <a href="#about">关于我们</a> </li> 
+       </ul> 
+
+      </div> 
+	  
+	 
+
+		
+     </nav> 
+     <div class="panel panel-default" style="border-left: 0px; border-right:0px"> 
+      
+              
+
+<table class="table">
+				<thead>
+					<tr>
+						<th>
+							编号
+						</th>
+						<th>
+							内容
+						</th>
+						<th>
+							时间
+						</th>
+						<th>
+							分享者
+						</th>
+					</tr>
+				</thead>
+				<tbody id="queryResult">
+					
+				</tbody>
+			</table>
+
+		   
+       </div> 
+<br>
+<div>
+       <h3 id="instruction"> 使用教程 </h3> 
+       <dl> 
+        <dt>
+          安装nasBox插件步骤：
+        </dt> 
+        <dd>
+          1. 从下面网址下载插件安装包，然后解压
+		  <br>https://github.com/happy398/nasBox/tree/master/Chrome%20Extension
+
+		  <br>
+		  2. 在谷歌浏览器中，打开扩展程序
+		<br>
+		3. 选择开发者模式
+		<br>
+		4. 点击加载已解压的扩展程序
+		<br>
+		5. 浏览到下载并解压的/nasBox/Chrome Extension/目录。点击确定即可。
+		<br>
+		6. 在浏览器中，可以选中想要分享的文字，然后右键，选择“一键保存到星云链”即可成功分享。
+        </dd> 
+		
+
+</div>
+<br>
+<div>
+       <h3 id="about"> 关于我们 </h3> 
+       <dl> 
+        <dt>
+          感谢使用此故乡的颜色APP。 
+        </dt> 
+        <dd>
+          该APP开发并运行于星云链上，代码公开。
+		  <br>n1omNzcHyphrv4mmpsFeqYk2Mh5WnC3Dqp4
+        </dd> 
+		<br>
+        <dt>
+          运行该APP需要注意的事项： 
+        </dt> 
+        <dd>
+          需要使用谷歌浏览器，并安装星云钱包插件。
+
+        </dd> 
+        <dd>
+          安装教程，请参考
+        </dd> 
+		<dd>
+		https://github.com/ChengOrangeJu/WebExtensionWallet
+		</dd>
+        <br>
+		<dt>
+          如果你在使用此APP过程中，遇到任何问题，请联系
+		  </dt> 
+		  <dd>happy398@sohu.com</dd>
+        
+
+       </dl> 
+
+</div>
+<nav class="navbar navbar-default navbar-static-bottom" role="navigation">
+<div class="col-md-12" style="text-align: center;background:white">
+                    <p>Copyright © 2018.
+					<br>
+                        <a href="https://incentive.nebulas.io/signup.html?invite=iRGAj" target="_blank">点我发布DAPP获取100NAS</a>
+                    </p>
+                    
+                </div>
+				
+			</nav>     
+
+ 
+   </div>
+  </div>
+  <script>
+  
+
+
+  </script>
+ </body>
+</html>
